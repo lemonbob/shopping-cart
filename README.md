@@ -1,5 +1,5 @@
-Shopping cart example code
+# Shopping cart example code
 
-No frameworks or libraries, pure vanilla & ES6
+## No frameworks or libraries, pure vanilla & ES6
 
-Single event listener and attributes can control state.
+## Single event listener and attributes can control state.
