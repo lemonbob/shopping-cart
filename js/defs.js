@@ -16,7 +16,7 @@ export default $def
  */
 $def.listItemTemplate = function (name, code, price, img) {
     return `<li class="li-ip li-item">
-<div class="s1 li-item"><img src="${img}" class="li-image"><div class="item-description"><h2>${name}</h2><p class="item-text-light">PRODUCT CODE: ${code}</p></div></div>
+<div class="s1 li-item"><img src="${img}" class="li-image"><div class="item-description"><h2>${name}</h2 class="item-text-pink"><p class="item-text-light text-sm">PRODUCT CODE: ${code}</p></div></div>
 <div class="s2 li-item"><p class="item-control no-select" subone="${code}">-</p><div class="quantity-box item-text" quantityGUID="${code}">0</div><p class="item-control no-select" addone="${code}">+</p></div> 
 <div class="s3 li-item"><div class="item-text">${price}€</div></div>
 <div class="s4 li-item"><div class="item-text li-total" totalGUID="${code}">0€</div></div>
